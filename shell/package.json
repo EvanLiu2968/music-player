@@ -1,0 +1,22 @@
+{
+  "name": "music-player",
+  "version": "0.1.0",
+  "description": "music-player",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder"
+  },
+  "author": "EvanLiu2968",
+  "license": "MIT",
+  "build": {
+    "appId": "music-player",
+    "win": {
+      "icon": "assets/logo.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^6.0.1",
+    "electron-builder": "^21.2.0"
+  }
+}
