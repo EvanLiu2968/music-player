@@ -6,7 +6,7 @@ export interface Props {
 }
 
 export default class Hello extends React.Component<Props, object> {
-  render() {
+  public render() {
     const { name, enthusiasmLevel = 1 } = this.props;
 
     if (enthusiasmLevel <= 0) {
